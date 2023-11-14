@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/typings"]
+  },
+  "include": ["src/**/*.ts", "src/typings/*.d.ts"]
+}
