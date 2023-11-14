@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import {ChangeLogSchema} from "../../schemas/changelog.api";
+import { ChangeLogSchema } from '../../../schemas/changelog.api';
 
 describe('/changelog', () => {
   it('should return 200 OK for get request', async () => {
